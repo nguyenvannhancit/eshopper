@@ -1,0 +1,315 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header-top{
+    background-color:#F0F0E9;
+}
+
+.contact ul li{
+    line-height: 40px;
+}
+.header-mid{
+    height:80px;
+    background: white;
+    line-height: 80px;
+    border-bottom: 1px solid #F0F0E9;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    margin-top: -10px;
+}
+.content-left{
+    margin-top: 70px;
+}
+.content-left .title{
+
+    /* position: absolute;
+    top: -20px;
+    left: 85px; */
+    background: white;
+    /* z-index: 2; */
+    text-align: center;
+}
+.content-left h4{
+    color: orange;
+
+}
+.content-left .duongke{
+    border: 1px solid silver;
+    /* position: relative;
+    z-index: 1; */
+
+}
+
+
+.sidebar{
+    margin-top: 30px;
+    border: 1px solid #c0c0c02e;
+}
+.panel>.panel-heading+.panel-collapse>.list-group .list-group-item{
+    padding-left: 35px;
+}
+.panel-default>.panel-heading {
+    background-color: white !important;
+    border: 0.5px solid white !important;
+}
+.panel-title>a{
+    color: #337ab7;
+}
+.panel-title>a:hover{
+    text-decoration: none;
+
+}
+.sidebar .list-group .list-group-item a:hover{
+    text-decoration: none;
+}
+
+.content-right{
+    margin-top: 70px;
+}
+.content-right h4{
+    color: orange;
+    text-align: center;
+
+}
+.content-right .title{
+    /* width: 220px;
+    position: absolute;
+    top: -20px;
+    left: 335px; */
+    background: white;
+
+    text-align: center;
+}
+
+.content-right .duongke{
+    border: 1px solid silver;
+    text-align: center;
+    vertical-align: center;
+    /* position: relative;
+    z-index: 1; */
+
+}
+.content-right .product{
+    margin-top: 30px;
+}
+.ads{
+    margin-top: 30px;
+    padding-right: 10px;
+}
+.carousel {
+    margin-bottom: 0;
+   /*  padding: 0 40px 30px 40px; */
+}
+/* The controlsy */
+.carousel-control {
+    left: -12px;
+    height: 40px;
+    width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+    right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -10px;
+    margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+    background: #cecece;
+}
+.carousel-indicators .active {
+    background: #428bca;
+}
+footer{
+    margin-top: 70px;
+    background-color: #F0F0E9;
+    height: auto;
+}
+footer .imgads{
+    padding-top: 20px;
+}
+footer .footer-top{
+    border-bottom: 1px solid silver;
+    padding-bottom: 30px;
+}
+.footer-mid{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid silver;
+}
+.footer-mid h4{
+    padding-bottom: 20px;
+}
+.footer-bottom{
+    padding: 10px 0px;
+}
+#goTop{
+    display:none;
+    width:55px;
+    height:55px;
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    color: #fff;
+    font-size: 27px;
+    background: orange;
+}
+.input-group{
+    padding-top: 8px !important;
+}
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.full-width {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.content-right .product .thumbnail{
+    position: relative;
+    z-index: 777;
+
+}
+.content-right .product .thum-sub{
+    width: 100%;
+    height: 100%;
+    background-color: #fe980ff5;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 778;
+    display: none;
+
+}
+.content-right .product .thum-sub a{
+    vertical-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    background-color: white;
+    color: #fe980ff5;
+    font-weight: bold;
+    border: 1px solid #fe980ff5;
+}
+.content-right .product .thumbnail:hover .thum-sub{
+    display: block;
+    cursor: pointer;
+}
+.range {
+    display: table;
+    position: relative;
+    height: 25px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    display: table-cell;
+    width: 100%;
+    background-color: transparent;
+    height: 25px;
+    cursor: pointer;
+}
+.range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    width: 11px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color: rgb(153, 153, 153);
+}
+
+.range input[type="range"]::-moz-slider-thumb {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+    -o-appearance: none !important;
+    appearance: none !important;
+
+    width: 11px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0px;
+    background-color: rgb(153, 153, 153);
+}
+
+.range output {
+    display: table-cell;
+    padding: 3px 5px 2px;
+    min-width: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+.range input[type="range"] {
+    outline: none;
+}
+
+.range.range-primary input[type="range"]::-webkit-slider-thumb {
+    background-color: rgb(66, 139, 202);
+}
+.range.range-primary input[type="range"]::-moz-slider-thumb {
+    background-color: rgb(66, 139, 202);
+}
+.range.range-primary output {
+    background-color: rgb(66, 139, 202);
+}
+.range.range-primary input[type="range"] {
+    outline-color: rgb(66, 139, 202);
+}
